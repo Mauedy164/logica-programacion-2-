@@ -1,33 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de temperaturas</title>
 </head>
+
 <body>
     <header>
 
     </header>
     <main>
-        <section class="conversor_container">
-            <section>
-                <label for="">Celsius</label>
-                <input type="text" id="temp_celsius">
+        <section class="conversor_container" >
+            <section style="border: 1px solid black; padding: 10px">
+                <h2>Celsius a Fahrenheit</h2>
+                <section>
+                    <label for="">Celsius</label>
+                    <input type="text" id="temp_celsius_fahrenheit">
+                    <button id="btn_celsius_fahrenheit">Convertir</button>
+                    <section>
+                        <label for="">Fahrenheit</label>
+                        <input type="text" id="temp_fahrenheit">
+                    </section>
+                </section>
             </section>
-            <section>
-                <label for="">Fahrenheit</label>
-                <input type="text" id="temp_fahrenheit">
-            </section>
+
         </section>
         <section class="conversor_container">
-            <section>
-                <label for="">Celsius</label>
-                <input type="text" id="temp_celsius">
-            </section>
-            <section>
-                <label for="">Kelvin</label>
-                <input type="text" id="temp_Kelvin">
+            <section style="border: 1px solid black; padding: 10px">
+                <h2>
+                    Celsius a Kelvin
+                </h2>
+                <section>
+                    <label for="">Celsius</label>
+                    <input type="text" id="temp_celsius_kelvin">
+                    <button id="btn_celsius_kelvin">Convertir</button>
+                </section>
+                <section>
+                    <label for="">Kelvin</label>
+                    <input type="text" id="temp_kelvin">
+                </section>
             </section>
         </section>
         </section>
@@ -38,4 +51,5 @@
 
     <script src="./main.js"></script>
 </body>
+
 </html>
